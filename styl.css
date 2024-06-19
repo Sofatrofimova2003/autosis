@@ -1,0 +1,765 @@
+/*Товары*/
+
+@media (max-width:768px) {
+    /*
+      ... правила для планшетов ...
+      выводим карточки товаров по 2 в ряд
+    */
+}
+
+@media (max-width:320px) {
+    /*
+      ... правила для смартфонов ...
+      выводим карточки товаров по 1 в ряд
+    */
+}
+
+
+
+@font-face {
+    font-family: 'Inrina Serif';
+    src: url(/fonts/font.ttf);
+}
+
+.fon {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+
+.hover-image-scale {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.hover-image-scale img {
+    transition: 1s;
+    display: block;
+}
+
+.hover-image-scale img:hover {
+    transform: scale(1.1);
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background: #ffffff;
+    position: absolute;
+    top: 0px;
+    border-radius: 0px 0px 35px 35px;
+
+}
+
+.menu login-button {
+    height: 10%;
+}
+
+
+
+.text h1 {
+    position: absolute;
+    left: 50px;
+    font-size: 28px;
+    top: 20px;
+    -webkit-text-stroke: 1px #00628B;
+    color: #3FC3E4;
+}
+
+.text img {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+
+}
+
+.text1 a {
+    position: absolute;
+    font-size: 22px;
+    left: 280px;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.text2 a {
+    position: absolute;
+    font-size: 22px;
+    left: 380px;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.text3 a {
+    position: absolute;
+    font-size: 22px;
+    left: 480px;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.text4 a {
+    position: absolute;
+    font-size: 22px;
+    left: 640px;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+    width: 250px;
+}
+
+.text5 a {
+    position: absolute;
+    font-size: 22px;
+    left: 845px;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.block {
+    position: absolute;
+    width: 500px;
+    height: 318px;
+    background: #FFFEFF;
+    border-radius: 45px;
+    top: 150px;
+    left: 380px;
+    opacity: 75%;
+}
+
+.text8 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.blocki {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    background: #FFFEFF;
+    border-radius: 45px;
+    top: 150px;
+    left: 380px;
+    opacity: 75%;
+}
+
+.text8 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.block1 {
+    position: absolute;
+    top: 550px;
+    width: 400px;
+    height: 30px;
+    background: #9FC5D5;
+    border-radius: 0px 0px 1500px 0px;
+}
+.text20 h2 {
+    width: 350px;
+    position: absolute;
+    left: 100px;
+    top: 3px;
+    font-size: 18px;
+}
+
+.product {
+    position: absolute;
+    width: 100%;
+    top: 600px;
+
+}
+
+.p {
+    position: absolute;
+    left: 50px;
+}
+
+.carta {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #000000;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+
+}
+
+.carta:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#5c5c5c;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+}
+
+
+.zent {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    width: 230px;
+    height: 50px;
+    background: #69C8E5;
+    border-radius: 10px 0px 80% 0px;
+}
+
+.zent a {
+    font-size: 23px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: -10px;
+    position: absolute;
+    top: 5px;
+}
+
+.carta img {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
+
+.carta h4 {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    margin-left: -60px;
+    margin-top: -90px;
+}
+
+.carta a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button12 {
+    margin-left: 15px;
+    width: 170px;
+    height: 45px;
+    padding: 10px 25px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: #D5E5ED;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 3px #d1d1d1;
+}
+
+.button12:hover {
+    background-color: #23a1c7
+}
+
+.button12:active {
+    background-color: #23a1c7;
+    box-shadow: 0 0px #9c9c9c;
+    transform: translateY(2px);
+}
+
+.p1 {
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+
+.carta1 {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #000000;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+
+}
+
+.carta1:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#5c5c5c;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+}
+
+.carta1 img {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+.carta1 h4 {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    margin-left: -60px;
+    margin-top: -90px;
+}
+
+.carta1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.p2 {
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+
+.carta2 {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #000000;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+
+}
+
+.carta2:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#5c5c5c;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+}
+
+.carta2 img {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+}
+
+.carta2 h4 {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    margin-left: -60px;
+    margin-top: -90px;
+}
+
+.carta2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.p3 {
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+
+.carta3 {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #000000;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+
+}
+
+.carta3:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#5c5c5c;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+}
+
+.carta3 img {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+.carta3 h4 {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    margin-left: -60px;
+    margin-top: -90px;
+}
+
+.carta3 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+
+
+
+.block14 {
+    position: absolute;
+    top: 400px;
+    left: -350px;
+    width: 400px;
+    height: 30px;
+    background: #9FC5D5;
+    border-radius: 0px 0px 1500px 0px;
+}
+
+.text21 h2 {
+   margin-left: 140px;
+   margin-top: 2px;
+    font-size: 19px;
+    width: 300px;
+}
+
+.product1 {
+    position: absolute;
+    width: 100%;
+    top: 450px;
+    left: -350px;
+
+}
+
+.p4 {
+    position: absolute;
+    left: 50px;
+}
+
+.carta4 {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #000000;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+
+}
+
+.carta4:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#5c5c5c;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+}
+
+
+
+.carta4 img {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+.carta4 h4 {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    margin-left: -60px;
+    margin-top: -90px;
+}
+
+.carta4 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.p6 {
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+
+.carta6 {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #000000;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 249px;
+
+
+}
+
+.carta6:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#5c5c5c;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+}
+
+.carta6 img {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+}
+
+.carta6 h4 {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    margin-left: -60px;
+    margin-top: -90px;
+}
+
+.carta6 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.p7 {
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+
+.carta7 {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #000000;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 249px;
+
+
+}
+
+.carta7:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#5c5c5c;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+}
+
+.carta7 img {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+}
+
+.carta7 h4 {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: -90px;
+}
+
+.carta7 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.p8 {
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+
+.carta8 {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #000000;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 249px;
+
+
+}
+
+.carta8:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#5c5c5c;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+}
+
+.carta8 img {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+.carta8 h4 {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    margin-left: -60px;
+    margin-top: -90px;
+}
+
+.carta8 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+.p9 {
+    position: absolute;
+    left: -600px;
+}
+
+.carta9 {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #000000;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+
+}
+
+.carta9:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#5c5c5c;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+}
+
+
+
+.carta9 img {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+.carta9 h4 {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: -90px;
+}
+
+.carta9 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.p10 {
+    position: absolute;
+    left: 300px;
+    top: -0px;
+}
+
+.carta10 {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #000000;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+
+}
+
+.carta10:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#5c5c5c;
+    text-indent: 30px;
+    padding: 330px 20px 10px 20px;
+    margin: 20px auto;
+    width: 250px;
+
+}
+
+
+
+.carta10 img {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+}
+
+.carta10 h4 {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    margin-left: -60px;
+    margin-top: -90px;
+}
+
+.carta10 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+
+.search button {
+    padding: 5px;
+    background-color: #bc955c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.registrBtn {
+    padding: 10px 20px;
+    background-color: #5c86bc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 150px;
+    /* Добавим отступ справа для выравнивания */
+}
